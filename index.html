@@ -48,7 +48,7 @@ if (myParam) {
       didInit = true;
   var  munchkinCookie = Cookies.get('_mkto_trk_master');
   var token = munchkinCookie ? munchkinCookie.replace(/^id:(.){12}token:/, '') : null;
-      Munchkin.init('559-LNN-604', { wsInfo:"j1RQ", visitorToken : token || null });
+      Munchkin.init('718-XKO-779', { wsInfo:"j1RQ", visitorToken : token || null });
     }
   }
   var s = document.createElement('script');
@@ -258,8 +258,8 @@ if (myParam) {
 <script type="text/javascript">
 let anchors = document.getElementsByTagName('a');
 let cookie = Cookies.get('_mkto_trk') || '';
-for(let i=0; i<anchors.length; i++) {
-anchors[i].href = 'http://old.perkuto.com/jobs?_mkto_trk=' + encodeURIComponent(cookie)
+for(let i=0; i<anchors.length; i += 2) {
+anchors[i].href = 'http://old.perkuto.com/jobs?_mkto_trk=' + encodeURIComponent(cookie);
 }
 </script>
     <!-- Plugin JavaScript -->
