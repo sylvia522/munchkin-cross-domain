@@ -48,7 +48,7 @@ if (myParam) {
       didInit = true;
   var  munchkinCookie = Cookies.get('_mkto_trk_master');
   var token = munchkinCookie ? munchkinCookie.replace(/^id:(.){12}token:/, '') : null;
-      Munchkin.init('559-LNN-604', { visitorToken : token || null });
+      Munchkin.init('559-LNN-604', { wsInfo:"j1RQ", visitorToken : token || null });
     }
   }
   var s = document.createElement('script');
